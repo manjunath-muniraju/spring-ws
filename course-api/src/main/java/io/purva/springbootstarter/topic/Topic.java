@@ -13,6 +13,10 @@ public class Topic {
 		this.description = description;
 	}
 	
+	public Topic() {
+		
+	}
+	
 	public String getId() {
 		return id;
 	}
