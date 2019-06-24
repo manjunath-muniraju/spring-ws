@@ -8,11 +8,11 @@
 		<version>1.5.21.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>io.purva</groupId>
+	<groupId>com.purva</groupId>
 	<artifactId>course-api-data</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>course-api-data</name>
-	<description>Course API with data for Spring Boot Quick start</description>
+	<description>Course API with data JPA for Spring Boot Quick start</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -27,10 +27,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		<dependency> <groupId>org.hibernate</groupId> <artifactId>hibernate-entitymanager</artifactId> <version>5.2.3.Final</version> </dependency>
 		<dependency>
-			<groupId>org.apache.derby</groupId>
-			<artifactId>derby</artifactId>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
